@@ -6,8 +6,18 @@
 
 ## Workflow
 
-Topical discussions are hosted via [issues](https://github.com/spinham/spinham-format/issues). When a consensus is reached in the issue (or the moment is appropriate) a pull request with the FDP can be opened. See FDP-0 (will appear soon) for how-to.
+Topical discussions are hosted via [issues](https://github.com/spinham/spinham-format/issues).
+The goal of each discussion is to reach a consensus. If consensus can not be reached, then decision will be made by a vote (1 tool/code = 1 vote). 
+
+Finilised discussion (either via consensus or vote) shall be summarised in the FDF document and a PR request should be opened to the "docs/fdf/" folder of this repository.
+
+Any member can open an issue or propose an FDP.
+
+## How to write an FDP
+
+Will appear later
+
+## Finalisation of the design stage
 
 Once all proposed FDPs and all topical issues are closed, the call for the end of the design stage (an open issue in this repository with a notification e-mail from andrey.rybakov@uv.es to everyone) will be made and if no new FDP appear after XX>7 days after the call, then the work will move to the implementation stage.
 
-Any member can open an issue or propose an FDP.
