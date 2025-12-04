@@ -19,5 +19,5 @@ Will appear later
 
 ## Finalisation of the design stage
 
-Once all proposed FDPs and all topical issues are closed, the call for the end of the design stage (an open issue in this repository with a notification e-mail from andrey.rybakov@uv.es to everyone) will be made and if no new FDP appear after XX>7 days after the call, then the work will move to the implementation stage.
+Once all proposed FDPs and all topical issues are closed, the call for the end of the design stage (an open issue in this repository with a notification to everyone) can be made by any member and if no new FDP appear after XX>7 days after the call, then the work will move to the implementation stage.
 
