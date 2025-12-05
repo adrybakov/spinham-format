@@ -14,7 +14,7 @@ Any member can open an issue or propose an FDP.
 
 ## How to write an FDP
 
-Will appear later
+See #9
 
 ## Finalisation of the design stage
 
