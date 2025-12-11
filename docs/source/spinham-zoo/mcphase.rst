@@ -6,7 +6,7 @@ McPhase
 
 ========= ======================================================================
 ========= ======================================================================
-Status    Draft
+Status    Verified
 Links     `Web <https://mcphase.github.io/webpage/>`_
 Languages C++, Fortran, Perl, Java
 ========= ======================================================================
@@ -41,7 +41,7 @@ and
 :math:`[\hat{\mathcal{H}}(n), \hat{\mathcal{H}}(n^{\prime})] = 0`
 for :math:`n \ne n^{\prime}`.
 
-Next we give a specific examples which fill the above expressions with life.
+Next we give specific examples which fill the above expression with life.
 
 
 Zeeman energy
@@ -61,9 +61,9 @@ When an external magnetic field is applied the term of the form
     \hat{J}^{n}_{\alpha}
     H_{\alpha}
 
-where :math:`\hat{\mathbf{J}}^n` is a total angular momentum operator.
+where :math:`\hat{\mathbf{J}}^n` is a total angular momentum operator, is included.
 
-Or in the form 
+Or the term of the form
 
 .. math::
 
@@ -111,8 +111,8 @@ where the operators are understood as
 :math:`\hat{\mathcal{I}}_{2}  \leftrightarrow \hat{J}_y`,
 :math:`\hat{\mathcal{I}}_{3}  \leftrightarrow \hat{J}_z`.
 
-FIXME: perhaps "Intermediate coupling"?
----------------------------------------
+Intermediate coupling
+---------------------
 
 For some rare earth ions and for transition metals or actinides it is necessary
 to include more single-ion ion states with different L, S into the calculation.
@@ -121,7 +121,7 @@ Two-ion intermediate interaction can be written as
 
 .. math::
 
-    \hat{\mathcal{H}}_{X-LS}
+    \hat{\mathcal{H}}_{IC}
     =
     -
     \dfrac{1}{2}
@@ -169,7 +169,7 @@ two-ion interaction with the matrix parameter
 
 .. math::
 
-    \hat{\mathcal{H}}_{DMI}
+    \hat{\mathcal{H}}_{CDD}
     =
     -
     \dfrac{1}{2}
@@ -431,20 +431,6 @@ Classical elastic energy and external stress can be included as
     \sum_{\alpha=1,\dots,6}
     \sigma_{\alpha}
     \epsilon_{\alpha}
-
-Unsorted terms
---------------
-
-Question: Is this last unsorted term the same as :math:`\hat{\mathcal{H}}_{CF1-S}(n)`?
-If so, then I suppose it can be just removed from this page.
-
-.. math::
-
-    \hat{H}
-    =
-    \sum_{i,\gamma}
-    B_{\gamma}(i,0,\dots,0)
-    O_{\gamma}(\mathbf{J}_i)
 
 
 Convention
