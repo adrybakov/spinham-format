@@ -82,6 +82,10 @@ custom_links = {
         "https://github.com/spinham/spinham-format",
     ),
     "issues": ("issues", "https://github.com/spinham/spinham-format/issues"),
+    "Integer-partition": (
+        "Integer partition (Wikipedia)",
+        "https://en.wikipedia.org/wiki/Integer_partition",
+    ),
 }
 rst_epilog += "\n".join(
     map(
